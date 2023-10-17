@@ -1,0 +1,19 @@
+[workspace]
+members = ["lib"]
+
+[package]
+name = "mmv"
+version = "0.1.0"
+edition = "2021"
+authors = ["NamorNiradnug"]
+
+[dependencies]
+clap = { version = "4.4.6", features = ["derive"]}
+anyhow = { version = "1.0.75" }
+color-print = { version = "0.3.5" }
+mmv-lib = { path = "lib/" }
+
+[dev-dependencies]
+tempdir = "0.3.7"
+assert_cmd = "2.0.12"
+predicates = "3.0.4"
