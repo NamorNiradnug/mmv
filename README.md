@@ -1,6 +1,6 @@
 # Multi-mv
 
-Educational project (HSE, Faculty of CS, AMI, Rust course): `mmv` utility. Allows to rename multiple matching a pattern.
+Educational project (HSE, Faculty of CS, AMI, Rust course): `mmv` utility. Allows to rename multiple files matching a pattern.
 
 ```
 multi-mv: rename multiple files matching a pattern
@@ -19,7 +19,7 @@ Options:
 
 ## Usage example
 
-```
+```sh
 > mmv "screenshot_*h*m*s.png" "screenshot_#1:#2:#3.png"
 Moving "screenshot_00h11m20s.png" -> "screenshot_00:11:20.png": Done
 Moving "screenshot_00h11m23s.png" -> "screenshot_00:11:23.png": Done
